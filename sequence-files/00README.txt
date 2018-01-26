@@ -67,6 +67,10 @@ Average length:      1777.6
 
 48,786 sequences, a subset of the 81,505 sequences that survived: 
 
+[See /panfs/pan1/infernal/notebook/18_0112_rrna_18S/00LOG.txt for more
+details, this sequence set was referred to as: bg60-81505-x12.48786 in
+those notes.]
+
 81,505 remain after removing seqs with non-weak VecScreen matches
 66,590 pass ribotyper and ribolengthchecker with options listed below
 48,786 remain after removing seqs that do not extend to within 60
