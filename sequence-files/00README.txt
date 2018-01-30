@@ -7,6 +7,8 @@ EPN, Tue Jan 30 05:56:56 2018 [microsporidia addition]
 3. 48786.20180119 (subset of 2)
 
 4. micro.687.20180129.fa
+5. micro.377.20180129.fa (subset of 4)
+6. micro.153.20180129.fa (subset of 5)
 ------------------
 1. 118383.20180110: 
 
@@ -122,10 +124,10 @@ ribolengthchecker.pl length definitions:
               but has indel(s) in first and/or final 10 model positions
 'partial:' does not span full model
 
-<[(sequence-files)]> ls -ltr 48786.20180119.list
+> ls -ltr 48786.20180119.list
 -rw-r--r-- 1 nawrocke oblast 534666 Jan 26 10:03 48786.20180119.list
 
-<[(sequence-files)]> esl-seqstat 48786.20180119.fa
+> esl-seqstat 48786.20180119.fa
 Format:              FASTA
 Alphabet type:       DNA
 Number of sequences: 48786
@@ -133,10 +135,10 @@ Total # residues:    86981242
 Smallest:            1502
 Largest:             2584
 Average length:      1782.9
-<[(sequence-files)]> ls -ltr 48786.20180119.fa
+> ls -ltr 48786.20180119.fa
 -rw-r--r-- 1 nawrocke oblast 92563050 Jan 26 09:21 48786.20180119.fa
-<[(sequence-files)]> gzip 48786.20180119.fa
-<[(sequence-files)]> ls -ltr 48786.20180119.fa.gz
+> gzip 48786.20180119.fa
+> ls -ltr 48786.20180119.fa.gz
 -rw-r--r-- 1 nawrocke oblast 9698627 Jan 26 09:21 48786.20180119.fa.gz
 
 ---------------------------------
@@ -163,7 +165,7 @@ And the names of the sequences in that file were saved:
 > ls -ltr micro.687.20180129.list 
 -rw-r--r-- 1 nawrocke oblast 7507 Jan 30 05:56 micro.687.20180129.list
 
-<[(sequence-files)]> esl-seqstat micro.687.20180129.fa
+> esl-seqstat micro.687.20180129.fa
 Format:              FASTA
 Alphabet type:       DNA
 Number of sequences: 687
@@ -179,3 +181,84 @@ Average length:      1259.1
 -rw-r--r-- 1 nawrocke oblast 120894 Jan 30 05:56 micro.687.20180129.fa.gz
 
 ----------------------
+5. micro.377.20180129: 
+
+377, a subset of the 687 microsporidia sequences in (4) sequences
+that survived: 
+
+687 seqs returned from idfetch/Entrez query
+439 remain after filtering for formal names
+377 remain after filtering for seqs with 0 ambiguous nts
+377 remain after removing non-Weak vecsreen matches
+
+> ls -ltr micro.377.20180129.list 
+-rw-r--r-- 1 nawrocke oblast 4107 Jan 30 14:22 micro.377.20180129.list
+
+> esl-seqstat micro.377.20180129.fa
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 377
+Total # residues:    473638
+Smallest:            1103
+Largest:             3908
+Average length:      1256.3
+> gzip micro.377.20180129.fa
+> ls -ltr micro.377.20180129.fa.gz
+-rw-r--r-- 1 nawrocke oblast 68826 Jan 30 14:22 micro.377.20180129.fa.gz
+
+--------------------
+3. micro.153.20180129:
+
+153 a subset of the 377 sequences that survived: 
+
+687 seqs returned from idfetch/Entrez query
+439 remain after filtering for formal names
+377 remain after filtering for seqs with 0 ambiguous nts
+377 remain after removing non-Weak vecsreen matches
+
+ribotyper.pl options:
+1. --inaccept ssu.micro.accept: only seqs with top hit to the
+   SSU-microsporidia model will pass
+2. --lowppossc 0.75: strict score requirement, only hits with 0.75
+   bits per position
+   will pass, 0.5 is the default.
+4. --tcov 0.99: very strict requirement of 99% coverage (99% of the
+   sequence must
+   be covered by the top hit)
+5. --multfail: any sequence with > 1 hit will fail (includes >90% of
+   group I intron containing seqs)
+6. --difffail: sequence for which the difference between the scores of
+   the top two hits of models from different domains is very low (<
+   0.1 bits per position) will fail (there were very few of these).
+
+ribolengthchecker takes all sequences that pass ribotyper, run with
+above options, and removes more sequences. Specifically any sequence
+that is classified as 'full-extra' or 'full-ambig' is removed, such
+that only 'full-exact' and 'partial' sequences remain (definitions
+below).
+
+ribolengthchecker.pl length definitions:
+'full-exact': spans full model and no 5' or 3' inserts
+              and no indels in first or final 10 model positions
+'full-extra': spans full model but has 5' and/or 3' inserts
+'full-ambig': spans full model and no 5' or 3' inserts
+              but has indel(s) in first and/or final 10 model positions
+'partial:' does not span full model
+
+> ls -ltr micro.153.20180129.list 
+-rw-r--r-- 1 nawrocke oblast 1647 Jan 30 14:25 micro.153.20180129.list
+
+> esl-seqstat micro.153.20180129.fa
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 153
+Total # residues:    194893
+Smallest:            1123
+Largest:             1448
+Average length:      1273.8
+> ls -ltr micro.153.20180129.fa
+-rw-r--r-- 1 nawrocke oblast 211041 Jan 30 14:25 micro.153.20180129.fa
+> gzip micro.153.20180129.fa
+> ls -ltr micro.153.20180129.fa.gz
+-rw-r--r-- 1 nawrocke oblast 34328 Jan 30 14:25 micro.153.20180129.fa.gz
+
