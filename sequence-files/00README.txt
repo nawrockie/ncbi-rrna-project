@@ -1,9 +1,12 @@
 EPN, Fri Jan 26 09:14:41 2018
+EPN, Tue Jan 30 05:56:56 2018 [microsporidia addition]
 
-3 sets of files:
+4 sets of files:
 1. 118383.20180110
-2. 81505.20180112
-3. 48786.20180119
+2. 81505.20180112 (subset of 1)
+3. 48786.20180119 (subset of 2)
+
+4. micro.687.20180129.fa
 ------------------
 1. 118383.20180110: 
 
@@ -17,8 +20,22 @@ plastid[filter] NOT chloroplast[filter] NOT plastid[ti] NOT
 chloroplast[ti] NOT mitochondrial[ti] NOT REfSeq[filter] NOT (5.8s[ti]
 OR internal[ti]) NOT 28S[ti] NOT TLS[ti]" -n > $1
 
+This returns GIs, they were then used to fetch the sequences with
+idfetch like this:
+idfetch -t 5 -c 1 -G
+
+Then sequence names were shorted to just accession.version with this
+script: 
+> ls -ltr fasta-long2short-names.pl 
+-rw-r--r-- 1 nawrocke oblast 289 Jan 30 05:59 fasta-long2short-names.pl
+
+And the names of the sequences in that file were saved:
+> esl-seqstat -a 118383.20180110.fa | grep ^= | awk '{ print $2 }' > 118383.20180110.list
+
 > ls -ltr 118383.20180110.list 
 -rw-r--r-- 1 nawrocke oblast 1297105 Jan 26 09:19 118383.20180110.list
+
+--
 
 > esl-seqstat 118383.20180110.fa
 Format:              FASTA
@@ -121,3 +138,44 @@ Average length:      1782.9
 <[(sequence-files)]> gzip 48786.20180119.fa
 <[(sequence-files)]> ls -ltr 48786.20180119.fa.gz
 -rw-r--r-- 1 nawrocke oblast 9698627 Jan 26 09:21 48786.20180119.fa.gz
+
+---------------------------------
+4. micro.687.20180129: 
+
+687 sequences that survived this idfetch (same as Entrez as far as
+I know) query: 
+
+idfetch -dn -c2 -q "txid6029[Organism:exp] AND 1100:18000 [slen] (18S [ti] OR small subunit ribosomal RNA [ti]) NOT WGS [filter] NOT mRNA [filter] NOT \"mitochondrion\"[Filter] NOT plastid [filter] NOT chloroplast [filter] NOT plastid [ti] NOT chloroplast [ti] NOT mitochondrial [ti] NOT RefSeq [filter] NOT (5.8S [ti] OR internal [ti]) NOT 28S [ti] NOT WGS NOT mRNA NOT "mitochondrion"[Filter] NOT RefSeq [filter] NOT TLS [ti]" -n
+
+This returns GIs, they were then used to fetch the sequences with
+idfetch like this:
+idfetch -t 5 -c 1 -G
+
+Then sequence names were shorted to just accession.version with this
+script: 
+> ls -ltr fasta-long2short-names.pl 
+-rw-r--r-- 1 nawrocke oblast 289 Jan 30 05:59 fasta-long2short-names.pl
+
+And the names of the sequences in that file were saved:
+> esl-seqstat -a micro.687.fa | grep ^= | awk '{ print $2 }' > micro.687.list
+
+--
+> ls -ltr micro.687.20180129.list 
+-rw-r--r-- 1 nawrocke oblast 7507 Jan 30 05:56 micro.687.20180129.list
+
+<[(sequence-files)]> esl-seqstat micro.687.20180129.fa
+Format:              FASTA
+Alphabet type:       DNA
+Number of sequences: 687
+Total # residues:    865010
+Smallest:            1100
+Largest:             4319
+Average length:      1259.1
+
+> ls -ltr micro.687.20180129.fa
+-rw-r--r-- 1 nawrocke oblast 943633 Jan 30 05:56 micro.687.20180129.fa
+> gzip micro.687.20180129.fa
+> ls -ltr micro.687.20180129.fa.gz
+-rw-r--r-- 1 nawrocke oblast 120894 Jan 30 05:56 micro.687.20180129.fa.gz
+
+----------------------

@@ -1,5 +1,7 @@
-# EPN, Fri Jan 26 09:05:44 2018
+EPN, Fri Jan 26 09:05:44 2018
+EPN, Tue Jan 30 06:02:39 2018 [microsporidia added]
 
+-----------------------------------
 taxonomy-tree.20180123.txt
 
 cp /am/ftp-private/ncbitax/taxdump.tar.gz .
@@ -20,7 +22,6 @@ tax_info.118383.20180123.txt
 
 command used to create the file:
 srcchk -i 118383.list -f TaxID,taxname -o tax_info.118383.txt
-
  
 original source:
 panfs/pan1/infernal/notebook/18_0112_rrna_18S/tax-analyses/tax_info.118383.txt
@@ -30,3 +31,18 @@ panfs/pan1/infernal/notebook/18_0112_rrna_18S/tax-analyses/tax_info.118383.txt
 Renamed with date:
 > ls -ltr tax_info.118383.20180123.txt
 -rw-r--r-- 1 nawrocke oblast 4896221 Jan 26 09:10 tax_info.118383.20180123.txt
+
+--------------------------------------
+tax_info.micro.687.20180129.txt
+
+command used to create the file:
+srcchk -i micro.687.list -f 'taxid,organism' > tax_info.micro.687.txt
+ 
+original source:
+/panfs/pan1/infernal/notebook/18_0112_rrna_18S/microsporidia-20180129
+> ls -ltr tax_info.micro.687.txt 
+-rw-r--r-- 1 nawrocke oblast 26351 Jan 29 20:33 tax_info.micro.687.txt
+
+Renamed with date:
+> ls -ltr tax_info.micro.687.20180129.txt 
+-rw-r--r-- 1 nawrocke oblast 26351 Jan 30 05:52 tax_info.micro.687.20180129.txt

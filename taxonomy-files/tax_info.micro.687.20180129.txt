@@ -1,0 +1,688 @@
+accession	taxid	organism	
+MF037236.1	2066961	Vairimorpha subcoccinellae	
+MG063426.1	2017719	Cucumispora sp.	
+MG063425.1	2017719	Cucumispora sp.	
+MG029394.1	2015745	Dictyocoela sp.	
+MG029391.1	2015745	Dictyocoela sp.	
+MG029390.1	2015745	Dictyocoela sp.	
+MG029389.1	2015745	Dictyocoela sp.	
+MG029388.1	2015745	Dictyocoela sp.	
+MG029387.1	2015745	Dictyocoela sp.	
+MG029375.1	2015745	Dictyocoela sp.	
+MG029373.1	2015745	Dictyocoela sp.	
+MG029371.1	2015745	Dictyocoela sp.	
+MG029370.1	2015745	Dictyocoela sp.	
+MG027893.1	2015745	Dictyocoela sp.	
+MG027892.1	2015745	Dictyocoela sp.	
+MG027891.1	2015745	Dictyocoela sp.	
+MG027890.1	2015745	Dictyocoela sp.	
+MG027889.1	2015745	Dictyocoela sp.	
+MG027888.1	2015745	Dictyocoela sp.	
+MG027887.1	2015745	Dictyocoela sp.	
+MG027886.1	2015745	Dictyocoela sp.	
+MG027885.1	2015745	Dictyocoela sp.	
+MG027884.1	2015745	Dictyocoela sp.	
+MG027883.1	2015745	Dictyocoela sp.	
+MG027882.1	2015745	Dictyocoela sp.	
+MG027881.1	2015745	Dictyocoela sp.	
+MG027880.1	2015745	Dictyocoela sp.	
+MG027879.1	2015745	Dictyocoela sp.	
+MG027878.1	2015745	Dictyocoela sp.	
+MG027877.1	2015745	Dictyocoela sp.	
+MG027876.1	2015745	Dictyocoela sp.	
+MG027875.1	2015745	Dictyocoela sp.	
+MG027874.1	2015745	Dictyocoela sp.	
+MG027873.1	2015745	Dictyocoela sp.	
+MG027872.1	2015745	Dictyocoela sp.	
+MG027871.1	2015745	Dictyocoela sp.	
+MG027870.1	2015745	Dictyocoela sp.	
+MG027869.1	2015745	Dictyocoela sp.	
+MG027868.1	2015745	Dictyocoela sp.	
+MG027867.1	2015745	Dictyocoela sp.	
+MG027866.1	2015745	Dictyocoela sp.	
+MG027865.1	2015745	Dictyocoela sp.	
+MG027864.1	2015745	Dictyocoela sp.	
+MF399471.1	2015745	Dictyocoela sp.	
+MF399470.1	2015745	Dictyocoela sp.	
+MF399469.1	2015745	Dictyocoela sp.	
+MF399468.1	2015745	Dictyocoela sp.	
+MF399467.1	2015745	Dictyocoela sp.	
+MF399466.1	2015745	Dictyocoela sp.	
+MF399465.1	2015745	Dictyocoela sp.	
+MF399463.1	2015745	Dictyocoela sp.	
+MF399462.1	2015745	Dictyocoela sp.	
+MF399461.1	2015745	Dictyocoela sp.	
+KY615717.1	1844323	Microsporidium sp.	
+KY615716.1	1844323	Microsporidium sp.	
+KY615715.1	1844323	Microsporidium sp.	
+KY615714.1	1844323	Microsporidium sp.	
+KY615713.1	1844323	Microsporidium sp.	
+KY615712.1	1844323	Microsporidium sp.	
+MG584870.1	40300	Nosema sp.	
+KY126433.1	40300	Nosema sp.	
+KC915038.1	1477415	Ameson portunus	
+MG063275.1	2015745	Dictyocoela sp.	
+MF882996.1	2034205	Nosema neumanni	
+KX981865.1	646526	Enterocytozoon hepatopenaei	
+MF405266.1	1844323	Microsporidium sp.	
+MF094454.1	40300	Nosema sp.	
+KX832080.1	1978551	Lanatospora costata	
+KX424959.1	1938578	Pancytospora epiphaga	
+KX360153.1	1912981	Nematocida homosporus	
+KX360152.1	1912980	Nematocida ciargi	
+KX360151.1	1912983	Nematocida minor	
+KX360148.1	1912982	Nematocida major	
+KX360147.1	1912983	Nematocida minor	
+KX360146.1	1912981	Nematocida homosporus	
+KX360145.1	1912989	Enteropsectra breve	
+KX360144.1	1912992	Enteropsectra sp. JUm1483	
+KX360143.1	1912991	Enteropsectra sp. JUm1456	
+KX360142.1	1912990	Enteropsectra longa	
+KX360141.1	1923960	Nematocida sp. GZ-2016a	
+KX360140.1	1923960	Nematocida sp. GZ-2016a	
+KX360138.1	1923960	Nematocida sp. GZ-2016a	
+KX360137.1	1923960	Nematocida sp. GZ-2016a	
+KX360136.1	1923960	Nematocida sp. GZ-2016a	
+KX360135.1	1923960	Nematocida sp. GZ-2016a	
+KX360134.1	1923960	Nematocida sp. GZ-2016a	
+KX360133.1	1923975	Pancytospora philotis	
+KX360132.1	1923975	Pancytospora philotis	
+KX360130.1	1923975	Pancytospora philotis	
+KX352733.1	586133	Nematocida parisii	
+KX352732.1	586133	Nematocida parisii	
+KX352731.1	586133	Nematocida parisii	
+KX352730.1	586133	Nematocida parisii	
+KX352729.1	586133	Nematocida parisii	
+KX352728.1	586133	Nematocida parisii	
+KX352727.1	586133	Nematocida parisii	
+KX352726.1	586133	Nematocida parisii	
+KX352725.1	586133	Nematocida parisii	
+KR704648.1	1929978	Rugispora istanbulensis	
+KY041888.1	1927920	Nematocida sp.	
+KY041887.1	586133	Nematocida parisii	
+KY041886.1	586133	Nematocida parisii	
+KY041885.1	586133	Nematocida parisii	
+KY041884.1	586133	Nematocida parisii	
+KY041883.1	586133	Nematocida parisii	
+KY041882.1	586133	Nematocida parisii	
+KY041881.1	586133	Nematocida parisii	
+KX364285.1	1911465	Unikaryon legeri	
+KX364284.1	1911463	Hyperspora aquatica	
+KX214678.1	1892431	uncultured Metchnikovellidae	
+KX214677.1	1892498	Amphiacantha sp. ex Lecudina cf. longissima	
+KX214676.1	1892497	Amphiacantha sp. ex Lecudina cf. elongata	
+KU577431.1	1807214	Glugea sp. LM-2016	
+KP825331.1	1643297	Perezia sp. 06-324	
+KU302797.1	1850277	Microsporidia sp. PP5.4	
+KU187950.1	1841581	Nosema sp. MIJ-4cD	
+KU187949.1	1841580	Nosema sp. MIJ-2pD	
+KR187185.1	723276	Paranucleospora theridion	
+KR187184.1	723276	Paranucleospora theridion	
+KR187183.1	723276	Paranucleospora theridion	
+KU363832.1	1830230	Glugea sp. GC_2015	
+KR612229.1	27973	Encephalitozoon hellem	
+KT380108.1	1795376	Microsporidia sp. HM2	
+KT380107.1	1795375	Microsporidia sp. HM1	
+KT380106.1	1795374	Microsporidia sp. HE1	
+KT934810.1	103443	Loma acerinae	
+KT762153.1	1798883	Globulispora mitoportans	
+AF132544.1	102172	Caudospora palustris	
+LC052208.1	1647823	Nosema sp. ICP-2002-3	
+LC052207.1	1647822	Nosema sp. ICP-2002-2	
+LC052206.1	1647821	Nosema sp. ICP-2002-1	
+LC052205.1	1647820	Nosema sp. ISL-2002-3	
+LC052204.1	1647819	Nosema sp. ISL-2002-2	
+LC052203.1	1647818	Nosema sp. ISL-2002-1	
+LC052202.1	1647817	Trachipleistophora sp. OSL-2012-10	
+LC052201.1	1647816	Vairimorpha sp. OSL-2012-9	
+LC052200.1	1647815	Vairimorpha sp. OSL-2012-8	
+LC052199.1	1647814	Pleistophora sp. OSL-2012-7	
+LC052198.1	1647813	Pleistophora sp. OSL-2012-6	
+LC052197.1	1647812	Nosema sp. OSL-2012-5	
+LC052196.1	1647811	Vairimorpha sp. OSL-2012-4	
+LC052195.1	1647810	Vairimorpha sp. OSL-2012-3	
+LC052194.1	1647809	Vairimorpha sp. OSL-2012-2	
+LC052193.1	1647808	Vairimorpha sp. OSL-2012-1	
+KM977990.1	1628256	Glugea gasterostei	
+KP966297.1	1706305	Microsporidium sp. PT11	
+KR871374.1	698211	Microsporidium sp. BPAR3	
+HM566196.1	33697	Nosema pyrausta	
+HQ396520.1	1028728	Neoperezia semenovaiae	
+HQ396519.1	1028727	Neoperezia chironomi	
+GU130407.1	856671	Crispospora chironomi	
+GQ337010.1	662766	Nosema sp. GKK-2009	
+GQ337009.1	662766	Nosema sp. GKK-2009	
+LC033883.1	1638633	Nosema sp. FCG-1468	
+LC033882.1	1638632	Nosema sp. FCG-1467	
+LC033881.1	1638631	Nosema sp. FCG-1466	
+LC033880.1	1638630	Nosema sp. FCG-1465	
+LC033879.1	1638629	Nosema sp. FCG-1464	
+LC033878.1	1638628	Nosema sp. FCG-1463	
+LC033877.1	1638627	Nosema sp. FCG-1462	
+LC033876.1	1638626	Nosema sp. FCG-1461	
+LC033875.1	1638625	Nosema sp. FCG-1460	
+LC033874.1	1638624	Nosema sp. FCG-1459	
+KP262018.1	1647996	Glugea sp. LM-2015	
+KJ494249.1	1492849	Nosema sp. MC	
+KP759285.1	546761	uncultured Enterocytozoonidae	
+KC855558.1	1465608	Amblyospora sp. L2	
+KM001609.1	1593793	Nosema sp. CP JX-2014	
+KM001608.1	1593793	Nosema sp. CP JX-2014	
+KM001607.1	1593793	Nosema sp. CP JX-2014	
+KM001606.1	1593793	Nosema sp. CP JX-2014	
+KM001605.1	1593793	Nosema sp. CP JX-2014	
+JX123133.1	42399	Vittaforma corneae	
+JX123132.1	42399	Vittaforma corneae	
+JX123131.1	42399	Vittaforma corneae	
+AB860144.1	481677	Nosema thomsoni	
+KJ755827.1	1530372	Endoreticulatus poecilimonae	
+KJ652549.1	1515092	Ameson metacarcini	
+KJ652548.1	1515092	Ameson metacarcini	
+KJ652547.1	1515092	Ameson metacarcini	
+KJ652546.1	1515092	Ameson metacarcini	
+JX268035.1	1329970	Nosema pieriae	
+KJ494248.1	1492848	Nosema sp. Dp	
+FJ005052.1	944018	Nematocida sp. 1 ERTm2	
+KF135645.1	1295219	Enterospora nucleophila	
+KF135644.1	1295219	Enterospora nucleophila	
+KF135643.1	1295219	Enterospora nucleophila	
+KF135642.1	1295219	Enterospora nucleophila	
+KF135641.1	1295219	Enterospora nucleophila	
+JX101917.1	1295219	Enterospora nucleophila	
+KF830721.1	1457355	Pleistophora sp. LM-2014	
+JF960137.1	1049365	Unikaryonidae sp. JI-2011	
+KF110991.1	1393010	Takaokaspora nipponicus	
+KF110990.1	1393010	Takaokaspora nipponicus	
+JQ268567.1	1160100	Microsporidia sp. CHW-2012	
+JF443599.1	27978	Nosema bombycis	
+JF443598.1	27978	Nosema bombycis	
+JF443597.1	27978	Nosema bombycis	
+JF443596.1	27978	Nosema bombycis	
+JF443595.1	27978	Nosema bombycis	
+JF443594.1	27978	Nosema bombycis	
+JF443593.1	27978	Nosema bombycis	
+JF443592.1	27978	Nosema bombycis	
+JF443591.1	27978	Nosema bombycis	
+JF443590.1	27978	Nosema bombycis	
+JF443589.1	27978	Nosema bombycis	
+JF443588.1	27978	Nosema bombycis	
+JF443587.1	27978	Nosema bombycis	
+JF443586.1	27978	Nosema bombycis	
+JF443585.1	27978	Nosema bombycis	
+JF443584.1	27978	Nosema bombycis	
+JF443583.1	27978	Nosema bombycis	
+JF443582.1	27978	Nosema bombycis	
+JF443581.1	27978	Nosema bombycis	
+JF443580.1	27978	Nosema bombycis	
+JF443579.1	27978	Nosema bombycis	
+JF443578.1	27978	Nosema bombycis	
+JF443577.1	27978	Nosema bombycis	
+JX463178.1	1344006	Pseudonosematidae sp. AD-2013	
+KC412707.1	1413611	Nosema chrysoperlae	
+KC412706.1	1413610	Nosema adaliae	
+KF169729.1	6035	Encephalitozoon cuniculi	
+JX915760.1	1333699	Enterocytospora artemiae	
+JX915759.1	1333711	Anostracospora rigaudi	
+JX915758.1	1333711	Anostracospora rigaudi	
+JX915757.1	1333699	Enterocytospora artemiae	
+JX915756.1	1333699	Enterocytospora artemiae	
+JX915755.1	1333699	Enterocytospora artemiae	
+JX915754.1	1333699	Enterocytospora artemiae	
+JX839890.1	1333714	Microsporidium sp. 3 NR-2013	
+JX839889.1	1333699	Enterocytospora artemiae	
+KC680656.1	40302	Nosema ceranae	
+KC680655.1	40302	Nosema ceranae	
+KC680654.1	40302	Nosema ceranae	
+KC680653.1	40302	Nosema ceranae	
+KC680652.1	40302	Nosema ceranae	
+KC680651.1	40302	Nosema ceranae	
+KC680650.1	40302	Nosema ceranae	
+KC680649.1	40302	Nosema ceranae	
+KC680648.1	40302	Nosema ceranae	
+KC680647.1	40302	Nosema ceranae	
+KC680646.1	40302	Nosema ceranae	
+KC680645.1	40302	Nosema ceranae	
+KC680644.1	40302	Nosema ceranae	
+KC680643.1	40302	Nosema ceranae	
+KC680642.1	40302	Nosema ceranae	
+KC680641.1	40302	Nosema ceranae	
+KC680640.1	40302	Nosema ceranae	
+KC680639.1	40302	Nosema ceranae	
+KC680638.1	40302	Nosema ceranae	
+KC680637.1	40302	Nosema ceranae	
+KC680636.1	40302	Nosema ceranae	
+KC680635.1	40302	Nosema ceranae	
+KC680634.1	40302	Nosema ceranae	
+KC680633.1	40302	Nosema ceranae	
+KC680632.1	40302	Nosema ceranae	
+KC680631.1	40302	Nosema ceranae	
+KC680630.1	40302	Nosema ceranae	
+KC680629.1	40302	Nosema ceranae	
+KC680628.1	40302	Nosema ceranae	
+KC680627.1	40302	Nosema ceranae	
+KC680626.1	40302	Nosema ceranae	
+KC680625.1	40302	Nosema ceranae	
+KC680624.1	40302	Nosema ceranae	
+KC680623.1	40302	Nosema ceranae	
+KC680622.1	40302	Nosema ceranae	
+KC680621.1	40302	Nosema ceranae	
+KC680620.1	40302	Nosema ceranae	
+KC680619.1	40302	Nosema ceranae	
+KC680618.1	40302	Nosema ceranae	
+KC836092.1	1324944	Nosema sp. CmM2	
+KC836091.1	1324943	Nosema sp. CmM1	
+JF927624.1	1030337	uncultured Spraguea	
+JQ085991.1	1165163	Microgemma carolinus	
+HQ615704.1	936607	Nosema sp. NIWB-15mb	
+HQ615703.1	936606	Nosema sp. NIWB-14b	
+HQ615702.1	936605	Nosema sp. NIWB-13md	
+HQ615701.1	936604	Nosema sp. NIWB-12n	
+HQ615700.1	936603	Nosema sp. NIWB-11bp	
+HQ615699.1	936602	Nosema sp. NIK-1s_mys	
+KC172651.1	1261140	Sporanauta perivermis	
+JQ062989.1	1172316	Kabatana sp. JS-2012	
+JQ062988.1	1172315	Ichthyosporidium weissii	
+JQ713130.1	198216	uncultured Nosema	
+JN575482.1	948295	Pleistophora sp. KB-2011	
+JQ247017.1	307626	Tubulinosema acridophagus	
+HM800853.2	1138381	Microsporidium sp. MSCLHCY01	
+HM800850.2	1138380	Facilispora margolisi	
+HM800849.2	1138380	Facilispora margolisi	
+HM800847.2	188546	Desmozoon lepeophtherii	
+HM800848.1	1138380	Facilispora margolisi	
+JQ820239.1	1167608	Spraguea sp. MB2011	
+JQ820238.1	1167607	Spraguea sp. MB2010	
+GU130406.1	856670	Helmichia lacustris	
+FJ865223.1	1169103	Mockfordia xanthocaeciliae	
+FJ865222.1	1169100	Antonospora psocopterae	
+EU709818.1	1169135	Liebermannia covasacrae	
+JQ082890.1	1151109	Tubulinosema hippodamiae	
+JQ083083.1	1137146	Vairimorpha sp. SB-2012	
+GU131121.1	40302	Nosema ceranae	
+GU131120.1	40302	Nosema ceranae	
+GU131119.1	40302	Nosema ceranae	
+GU131118.1	40302	Nosema ceranae	
+GU131117.1	40302	Nosema ceranae	
+GU131116.1	40302	Nosema ceranae	
+GU131115.1	40302	Nosema ceranae	
+GU131114.1	40302	Nosema ceranae	
+GU131113.1	40302	Nosema ceranae	
+GU131112.1	40302	Nosema ceranae	
+GU131111.1	40302	Nosema ceranae	
+GU131110.1	40302	Nosema ceranae	
+GU131109.1	40302	Nosema ceranae	
+GU131108.1	40302	Nosema ceranae	
+GU131107.1	40302	Nosema ceranae	
+GU131106.1	40302	Nosema ceranae	
+GU131105.1	40302	Nosema ceranae	
+GU131104.1	40302	Nosema ceranae	
+GU131103.1	40302	Nosema ceranae	
+GU131102.1	40302	Nosema ceranae	
+GU131101.1	40302	Nosema ceranae	
+GU131100.1	40302	Nosema ceranae	
+GU131099.1	40302	Nosema ceranae	
+GU131098.1	40302	Nosema ceranae	
+GU131097.1	40302	Nosema ceranae	
+GU131096.1	40302	Nosema ceranae	
+GU131095.1	40302	Nosema ceranae	
+GU131094.1	40302	Nosema ceranae	
+GU131093.1	40302	Nosema ceranae	
+GU131092.1	40302	Nosema ceranae	
+GU131091.1	40302	Nosema ceranae	
+GU131090.1	40302	Nosema ceranae	
+GU131089.1	40302	Nosema ceranae	
+GU131088.1	40302	Nosema ceranae	
+GU131087.1	40302	Nosema ceranae	
+GU131086.1	40302	Nosema ceranae	
+GU131085.1	40302	Nosema ceranae	
+GU131084.1	40302	Nosema ceranae	
+GU131083.1	40302	Nosema ceranae	
+GU131082.1	40302	Nosema ceranae	
+GU131081.1	40302	Nosema ceranae	
+GU131080.1	40302	Nosema ceranae	
+GU131079.1	40302	Nosema ceranae	
+GU131078.1	40302	Nosema ceranae	
+GU131077.1	40302	Nosema ceranae	
+GU131076.1	40302	Nosema ceranae	
+GU131075.1	40302	Nosema ceranae	
+GU131074.1	40302	Nosema ceranae	
+GU131073.1	40302	Nosema ceranae	
+GU131072.1	40302	Nosema ceranae	
+GU131071.1	40302	Nosema ceranae	
+GU131070.1	40302	Nosema ceranae	
+GU131069.1	40302	Nosema ceranae	
+GU131068.1	40302	Nosema ceranae	
+GU131067.1	40302	Nosema ceranae	
+GU131066.1	40302	Nosema ceranae	
+GU131065.1	40302	Nosema ceranae	
+GU131064.1	40302	Nosema ceranae	
+GU131063.1	40302	Nosema ceranae	
+GU131062.1	40302	Nosema ceranae	
+GU131061.1	40302	Nosema ceranae	
+GU131060.1	40302	Nosema ceranae	
+GU131059.1	40302	Nosema ceranae	
+GU131058.1	40302	Nosema ceranae	
+GU131057.1	40302	Nosema ceranae	
+GU131056.1	40302	Nosema ceranae	
+GU131055.1	40302	Nosema ceranae	
+GU131054.1	40302	Nosema ceranae	
+GU131053.1	40302	Nosema ceranae	
+GU131052.1	40302	Nosema ceranae	
+GU131051.1	40302	Nosema ceranae	
+GU131050.1	40302	Nosema ceranae	
+GU131049.1	40302	Nosema ceranae	
+GU131048.1	40302	Nosema ceranae	
+GU131047.1	40302	Nosema ceranae	
+GU131046.1	40302	Nosema ceranae	
+GU131045.1	40302	Nosema ceranae	
+GU131044.1	40302	Nosema ceranae	
+GU131043.1	40302	Nosema ceranae	
+JF826421.1	1129594	Parathelohania tomski	
+JF826420.1	1129593	Parathelohania divulgata	
+JF826419.1	1129576	Novothelohania ovalae	
+JF826418.1	1129592	Amblyospora timirasia	
+JF826417.1	1129590	Amblyospora severinia	
+JF826416.1	1129591	Amblyospora shegaria	
+JF826415.1	1129589	Amblyospora salairia	
+JF826414.1	908467	Amblyospora rugosa	
+JF826413.1	1129588	Amblyospora modestium	
+JF826412.1	1129587	Amblyospora mocrushinia	
+JF826411.1	1129586	Amblyospora mavlukevia	
+JF826410.1	1129585	Amblyospora kolarovi	
+JF826409.1	1129584	Amblyospora kazankia	
+JF826408.1	1129583	Amblyospora jurginia	
+JF826407.1	1129582	Amblyospora hristinia	
+JF826406.1	1129581	Amblyospora flavescens	
+JF826405.1	1129580	Amblyospora chulymia	
+JF826404.1	1129579	Amblyospora bogashovia	
+JF826402.1	1129577	Amblyospora bakcharia	
+JN688870.1	1101198	Endoreticulatus sp. Shengzhou	
+GU173849.1	694063	Kneallhazia carolinensae	
+AB569605.1	859625	Nosema sp. VSl-2007-16	
+AB569604.1	859624	Nosema sp. VSl-2007-15	
+AB569603.1	859623	Nosema sp. VSl-2007-14	
+AB569602.1	859622	Nosema sp. VSl-2007-13	
+AB569601.1	859621	Nosema sp. VSl-2007-12	
+AB569600.1	859620	Nosema sp. VSl-2007-11	
+AB569599.1	859619	Nosema sp. VSl-2007-10	
+AB569598.1	859618	Nosema sp. VSl-2007-9	
+AB569597.1	859617	Nosema sp. VSl-2007-8	
+AB569596.1	859616	Nosema sp. VSl-2007-7	
+AB569595.1	859615	Nosema sp. VSl-2007-6	
+AB569594.1	859614	Nosema sp. VSl-2007-5	
+AB569593.1	859613	Nosema sp. VSl-2007-4	
+AB569592.1	859612	Nosema sp. VSl-2007-3	
+AB569591.1	859611	Nosema sp. VSl-2007-2	
+AB569590.1	859610	Nosema sp. VSl-2007-1	
+GU196258.1	888024	Dictyocoela sp. GF	
+GU196257.1	888026	Dictyocoela sp. GL2	
+GU196256.1	888025	Dictyocoela sp. GL	
+GQ379704.1	663571	Cystosporogenes sp. GKK-2009	
+GQ379703.1	663571	Cystosporogenes sp. GKK-2009	
+GU124636.1	909463	Microsporidium sp. PBT	
+HM216911.1	723287	Anncaliia algerae	
+HM002483.1	759752	Nosema oryzaephili	
+GU126383.1	745834	Anisofilariata chironomi	
+FJ914315.1	671097	Mrazekia macrocyclopis	
+GQ244502.1	661385	Nosema sp. Hyblaea puera 1	
+FJ865224.1	639191	Microsporidium sp. 4-YYS-2009d	
+FJ865221.1	639188	Microsporidium sp. 1-YYS-2009a	
+FJ040740.1	198216	uncultured Nosema	
+EU664450.1	549444	Andreanna caspii	
+EU260046.1	498393	Endoreticulatus sp. CHW-2008 Austria	
+DQ675604.1	393904	Euplotespora binucleata	
+FJ005051.1	586133	Nematocida parisii	
+AF067144.1	88455	Encephalitozoon lacertae	
+AF024658.1	307626	Tubulinosema acridophagus	
+AF024657.1	31281	Enterocytozoon bieneusi	
+AF024656.1	67680	Visvesvaria algerae	
+AF024655.1	67678	Antonospora scoticae	
+AF033197.1	51541	Spraguea lophii	
+HM594269.1	908469	Trichotosporea pygopellita	
+HM594268.1	908469	Trichotosporea pygopellita	
+HM594267.1	908469	Trichotosporea pygopellita	
+HM594266.1	908467	Amblyospora rugosa	
+HM594265.1	908467	Amblyospora rugosa	
+HM594264.1	908467	Amblyospora rugosa	
+HM626220.1	902689	Loma sp. SVB-PE3	
+HM626218.1	902689	Loma sp. SVB-PE3	
+HM626205.1	54566	Loma salmonae	
+HM626221.1	902689	Loma sp. SVB-PE3	
+HM626217.1	902689	Loma sp. SVB-PE3	
+HM626214.1	54566	Loma salmonae	
+HM626213.1	54566	Loma salmonae	
+HM626209.1	54566	Loma salmonae	
+HM626207.1	54566	Loma salmonae	
+HM626204.1	54566	Loma salmonae	
+HM626203.1	54566	Loma salmonae	
+HM991451.1	876644	Dictyocoela sp. GPM1	
+FN434092.1	666004	Microsporidium sp. 1049	
+FN434091.1	189833	Dictyocoela duebenum	
+FN434090.1	279532	Dictyocoela muelleri	
+FN434088.1	83296	Nosema granulosis	
+FN434086.1	666002	Microsporidium sp. 515	
+FN434084.1	249366	Pleistophora mulleri	
+AF134205.1	694064	Kneallhazia solenopsae	
+AY963290.1	723287	Anncaliia algerae	
+AY963289.1	723287	Anncaliia algerae	
+AY230191.1	723287	Anncaliia algerae	
+AF394528.1	174678	Microsporidium sp. DP-1-19	
+AY013359.1	145415	Intrapredatorus barri	
+AF118143.1	27973	Encephalitozoon hellem	
+AF118142.1	27973	Encephalitozoon hellem	
+AF104087.1	88069	Bacillidium sp.	
+AF104086.1	51541	Spraguea lophii	
+AF104085.1	157916	Ovipleistophora mirandellae	
+AF104081.1	88107	Loma sp.	
+FJ389667.1	723276	Paranucleospora theridion	
+FJ594990.1	723276	Paranucleospora theridion	
+FJ594987.1	723276	Paranucleospora theridion	
+FJ594986.1	723276	Paranucleospora theridion	
+FJ594985.1	723276	Paranucleospora theridion	
+FJ594984.1	723276	Paranucleospora theridion	
+FJ594982.1	723276	Paranucleospora theridion	
+FJ594981.1	723276	Paranucleospora theridion	
+FJ594980.1	723276	Paranucleospora theridion	
+FJ594979.1	723276	Paranucleospora theridion	
+FJ594978.1	723276	Paranucleospora theridion	
+FJ594977.1	723276	Paranucleospora theridion	
+FJ594976.1	723276	Paranucleospora theridion	
+FJ594972.1	723276	Paranucleospora theridion	
+FJ594970.1	723276	Paranucleospora theridion	
+FJ594969.1	723276	Paranucleospora theridion	
+AF364303.1	158179	Tetramicra brevifilum	
+EU864531.1	550797	Nosema sp. PR	
+EU864528.1	550790	Nosema sp. PA	
+EU864527.1	550799	Nosema sp. HA	
+EU864526.1	332525	Nosema antheraeae	
+EU864525.1	27978	Nosema bombycis	
+EU219086.1	481677	Nosema thomsoni	
+EU219085.1	481673	Nosema disstriae	
+EU219084.1	481675	Nosema sp. CO	
+EU219083.1	481674	Nosema fumiferanae	
+EU219082.1	481676	Nosema sp. CPP	
+DQ919080.1	405222	Nosema sp. SCH.F4	
+DQ919079.1	405221	Nosema sp. SCH.F3	
+DQ919078.1	405220	Nosema sp. SCH.F2	
+DQ919077.1	405219	Nosema sp. SCH.F1	
+DQ919076.1	405218	Nosema sp. SCH.P	
+DQ919075.1	405217	Nosema sp. CFD.F4	
+DQ919074.1	405216	Nosema sp. CFD.F3	
+DQ919073.1	405215	Nosema sp. CFD.F2	
+DQ919072.1	405214	Nosema sp. CFD.F1	
+DQ919071.1	405213	Nosema sp. CFD.P	
+DQ919070.1	27978	Nosema bombycis	
+DQ919069.1	27978	Nosema bombycis	
+AY090070.1	103452	Janacekia debaisieuxi	
+AY090069.1	103456	Polydispyrenia simulii	
+AY090068.1	191599	Amblyospora bracteata	
+AY090067.1	191605	Hazardia milleri	
+AY090066.1	191606	Hazardia sp.	
+AY090065.1	191598	Parathelohania obesa	
+AY090062.1	191597	Amblyospora ferocious	
+AY090061.1	191596	Amblyospora criniferis	
+AY090060.1	191595	Amblyospora cinerei	
+AY090059.1	191595	Amblyospora cinerei	
+AY090058.1	191595	Amblyospora cinerei	
+AY090057.1	191595	Amblyospora cinerei	
+AY090056.1	191594	Amblyospora canadensis	
+AY090055.1	33688	Amblyospora sp.	
+AY090053.1	33688	Amblyospora sp.	
+AY090052.1	191593	Amblyospora opacita	
+AY090051.1	191592	Amblyospora indicola	
+AY090050.1	70528	Amblyospora stimuli	
+AY090049.1	191591	Amblyospora stictici	
+AY090048.1	191590	Amblyospora weiseri	
+AY090047.1	191589	Amblyospora khaliulini	
+AY090046.1	191589	Amblyospora khaliulini	
+AY090045.1	191589	Amblyospora khaliulini	
+AY090044.1	191588	Amblyospora excrucii	
+AY090043.1	191588	Amblyospora excrucii	
+AY090042.1	191602	Berwaldia schaefernai	
+AY090041.1	257491	Marssoniella elegans	
+AY017213.1	150444	Nosema sp. 4m	
+AY017212.1	150443	Nosema sp. 3h	
+AY017211.1	150442	Nosema sp. 2r	
+AY017210.1	150441	Nosema sp. 1s	
+EU682928.1	554318	Kabatana sp. JI-2008	
+FJ843104.1	679728	Loma psittaca	
+GQ337011.1	662766	Nosema sp. GKK-2009	
+EU502839.1	527194	Encephalitozoon sp. MB-2008	
+EU502838.1	527194	Encephalitozoon sp. MB-2008	
+L39114.1	33700	Vairimorpha sp.	
+L39110.1	42181	Ichthyosporidium sp.	
+U26532.1	40301	Nosema furnacalis	
+AF069063.1	723287	Anncaliia algerae	
+DQ235446.1	35231	Nosema apis	
+AY695845.1	291195	Tubulinosema ratisbonensis	
+AF141130.1	94621	Nosema sp. KU-9	
+AF141129.1	27968	Vairimorpha lymantriae	
+AB125666.1	27978	Nosema bombycis	
+GQ379702.1	662872	Vairimorpha sp. GKK-2009	
+GQ337704.1	662766	Nosema sp. GKK-2009	
+GQ337703.1	662766	Nosema sp. GKK-2009	
+GQ337707.1	662872	Vairimorpha sp. GKK-2009	
+GQ337706.1	662872	Vairimorpha sp. GKK-2009	
+GQ337705.1	662872	Vairimorpha sp. GKK-2009	
+EU487251.1	511428	Vairimorpha ocinarae	
+L39112.1	42399	Vittaforma corneae	
+L39113.1	58839	Encephalitozoon intestinalis	
+L39111.1	27978	Nosema bombycis	
+L39108.1	27973	Encephalitozoon hellem	
+L39107.1	6035	Encephalitozoon cuniculi	
+L39109.1	42401	Endoreticulatus schubergi	
+U09929.1	58839	Encephalitozoon intestinalis	
+EU350393.1	27978	Nosema bombycis	
+EU350392.1	27978	Nosema bombycis	
+EU350391.1	27978	Nosema bombycis	
+EU350390.1	27978	Nosema bombycis	
+EU350389.1	27978	Nosema bombycis	
+FJ481912.1	40302	Nosema ceranae	
+AB009977.1	40300	Nosema sp.	
+L16866.1	31283	Encephalitozoon sp.	
+L16867.1	31283	Encephalitozoon sp.	
+EU275200.1	485630	Heterovesicula cowani	
+EF585399.1	444136	Nosema sp. CHW-2007a	
+EF564602.1	446473	Ovavesicula popilliae	
+AY376351.1	278021	Antonospora locustae	
+EU123526.1	470312	Nosema sp. BHKP-2007b	
+EU123525.1	469820	Nosema sp. BHKP-2007a	
+DQ996241.1	6039	Vairimorpha necatrix	
+DQ996238.1	417334	Nosema empoascae	
+DQ329034.1	40302	Nosema ceranae	
+AY465876.1	256132	Spraguea sp. ex Lophius litulon	
+DQ403816.1	388544	Trachipleistophora sp. AH2006a	
+DQ239917.1	353901	Liebermannia patagonica	
+DQ272237.1	357503	Thelohania disparis	
+DQ019419.1	33695	Tubulinosema kingi	
+DQ486028.1	40302	Nosema ceranae	
+AY502945.1	262394	Endoreticulatus sp. CHW-2004 Bulgaria	
+AY502944.1	262393	Endoreticulatus sp. CHW-2004 Taiwan	
+AY953292.2	319743	Systenostrema alba	
+AY894423.1	311454	Anncaliia meligethi	
+AY566237.1	284501	Cystosporogenes sp. CRV-2004	
+AY211392.1	231490	Nosema spodopterae	
+AY713310.1	291811	Nosema sp. NIK-2r	
+AY713309.1	291810	Nosema sp. NIK-1s	
+AY713307.1	291808	Nosema sp. NIAP-7g	
+AY713306.1	291807	Nosema sp. NIAP-6p	
+AY589503.1	290653	Nosema sp. ETC-M-4-2-04	
+AY973624.1	322689	Caudospora simulii	
+AY958071.1	33697	Nosema pyrausta	
+AY958070.1	142465	Nadelspora canceri	
+AY233131.2	236506	Cystosporogenes legeri	
+AY616662.1	27978	Nosema bombycis	
+AY311591.1	246557	Nosema sp. C04	
+AY311590.1	246556	Nosema sp. C03	
+AY311589.1	246555	Nosema sp. C02	
+AF327408.1	241643	Vairimorpha cheracis	
+AY183664.1	224381	Thelohania montirivulorum	
+AF294781.1	203541	Thelohania parastaci	
+AY209011.1	27978	Nosema bombycis	
+AY311592.1	235546	Vairimorpha sp. C21	
+AF338364.1	27973	Encephalitozoon hellem	
+AF484695.1	202249	Trichonosema pectinatellae	
+AF495379.1	200899	Oligosporidium occidentalis	
+AF483838.1	200885	Hyalinocysta chapmani	
+AF483837.1	200885	Hyalinocysta chapmani	
+AF027685.1	70528	Amblyospora stimuli	
+AF027684.1	70536	Edhazardia aedis	
+AF027683.1	70534	Culicosporella lunata	
+AF027682.1	33690	Parathelohania anophelis	
+AF492594.1	164912	Thelohania contejeani	
+AF492593.1	164912	Thelohania contejeani	
+AY090038.1	191434	Glugea sp.	
+AF023245.1	31281	Enterocytozoon bieneusi	
+U68474.1	33688	Amblyospora sp.	
+U68473.1	51588	Amblyospora californica	
+AF338366.1	27973	Encephalitozoon hellem	
+AF338365.1	27973	Encephalitozoon hellem	
+AY033054.1	159735	Microgemma caulleryi	
+AF240355.1	133530	Endoreticulatus sp.	
+AF240354.1	40300	Nosema sp.	
+AF240353.1	40300	Nosema sp.	
+AF240352.1	40300	Nosema sp.	
+AF240351.1	40300	Nosema sp.	
+AF240350.1	40300	Nosema sp.	
+AF240349.1	40300	Nosema sp.	
+AF240348.1	40300	Nosema sp.	
+AF240347.1	27978	Nosema bombycis	
+AF033316.1	72706	Nosema portugal	
+AF033315.1	27968	Vairimorpha lymantriae	
+AF186007.1	138567	Nucleospora sp. P_vetulus	
+AF186003.1	54411	Nucleospora salmonis	
+AF186001.1	54411	Nucleospora salmonis	
+AF186000.1	54411	Nucleospora salmonis	
+AF185999.1	54411	Nucleospora salmonis	
+AF185998.1	54411	Nucleospora salmonis	
+AF185996.1	54411	Nucleospora salmonis	
+AF185995.1	54411	Nucleospora salmonis	
+AF185994.1	54411	Nucleospora salmonis	
+AF185993.1	54411	Nucleospora salmonis	
+AF185992.1	54411	Nucleospora salmonis	
+AF185991.1	54411	Nucleospora salmonis	
+AF185990.1	54411	Nucleospora salmonis	
+AF185989.1	54411	Nucleospora salmonis	
+AF185988.1	54411	Nucleospora salmonis	
+AF185987.1	54411	Nucleospora salmonis	
+AY009115.1	141905	Endoreticulatus bombycis	
+AF238239.1	126154	Nosema sp. 'S. litura'	
+AF151529.1	96063	Microsporidium prosopium	
+AJ011833.1	83296	Nosema granulosis	
+AF124331.1	33700	Vairimorpha sp.	
+AF025685.1	67759	Amblyospora connecticus	
+AF056016.1	73782	Glugea anomala	
+AF056015.1	75296	Glugea stephani	
+AF056014.1	75295	Glugea americanus	
+AF056013.1	51541	Spraguea lophii	
+U11046.1	42399	Vittaforma corneae	
+U26533.1	40302	Nosema ceranae	
+U26534.1	35231	Nosema apis	
+X98469.1	6035	Encephalitozoon cuniculi	
+X98470.1	6035	Encephalitozoon cuniculi	
+X98467.1	6035	Encephalitozoon cuniculi	
+U10883.1	54411	Nucleospora salmonis	
+U27359.1	40303	Nosema oulemae	
+U15987.1	36737	Glugea atherinae	
+U11047.1	35228	Nosema vespula	
+L19567.1	58839	Encephalitozoon intestinalis	
