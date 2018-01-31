@@ -124,6 +124,9 @@ ribolengthchecker.pl length definitions:
               but has indel(s) in first and/or final 10 model positions
 'partial:' does not span full model
 
+
+
+
 > ls -ltr 48786.20180119.list
 -rw-r--r-- 1 nawrocke oblast 534666 Jan 26 10:03 48786.20180119.list
 
@@ -215,8 +218,13 @@ Average length:      1256.3
 439 remain after filtering for formal names
 377 remain after filtering for seqs with 0 ambiguous nts
 377 remain after removing non-Weak vecsreen matches
+230 pass ribotyper x12 and have zero ambiguities and formal names
+228 pass ribolengthchecker as 'partial' [171] or 'full-exact' [57]
+153 pass ribolengthchecker as 'partial' [171] or 'full-exact' [57]
+    and have alignments that extend to within 60 RF positions of both
+    the 5' and 3' ends of the RF02542 model
 
-ribotyper.pl options:
+ribotyper.pl x12 options:
 1. --inaccept ssu.micro.accept: only seqs with top hit to the
    SSU-microsporidia model will pass
 2. --lowppossc 0.75: strict score requirement, only hits with 0.75
@@ -245,6 +253,7 @@ ribolengthchecker.pl length definitions:
               but has indel(s) in first and/or final 10 model positions
 'partial:' does not span full model
 
+
 > ls -ltr micro.153.20180129.list 
 -rw-r--r-- 1 nawrocke oblast 1647 Jan 30 14:25 micro.153.20180129.list
 
@@ -261,4 +270,6 @@ Average length:      1273.8
 > gzip micro.153.20180129.fa
 > ls -ltr micro.153.20180129.fa.gz
 -rw-r--r-- 1 nawrocke oblast 34328 Jan 30 14:25 micro.153.20180129.fa.gz
+
+------------------------------------
 
