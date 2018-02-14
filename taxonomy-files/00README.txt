@@ -1,7 +1,46 @@
 EPN, Fri Jan 26 09:05:44 2018
 EPN, Tue Jan 30 06:02:39 2018 [microsporidia added]
+EPN, Wed Feb 14 08:58:31 2018 [taxonomy
 
 -----------------------------------
+taxonomy_tree_wlevels.20180213.txt 
+
+cp /am/ftp-private/ncbitax/taxdump.tar.gz .
+gunzip /am/ftp-private/ncbitax/taxdump.tar.gz
+cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
+/panfs/pan1.be-md.ncbi.nlm.nih.gov/dnaorg/2015.09/vector_screening/repository3/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl
+--input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
+mv taxonomy_tree_wlevels.txt taxonomy_tree_wlevels.20180213.txt 
+
+original source:
+/panfs/pan1/dnaorg/2018.01/18S/coverage_analysis/taxonomy_tree_wlevels.txt
+-rw-r--r-- 1 schaffer oblast 48094695 Feb 13 13:16 taxonomy_tree_wlevels.txt
+
+----------------------------------
+taxa_to_cover_v1.txt
+
+Slightly modified version of the file "orders+detleflist.txt" posted
+by Conrad Schoch to JIRA ticket TAXDATA-161 on 2/12/18.
+https://jira.ncbi.nlm.nih.gov/browse/TAXDATA-161
+
+Alejandro modified the file to resolve whitespace issues and renamed it.
+
+original source:
+/panfs/pan1/dnaorg/2018.01/18S/coverage_analysis/taxonomy_tree_wlevels.txt
+-rw-r--r-- 1 schaffer oblast    19149 Feb 13 21:29 taxa_to_cover_v1.txt
+------------------------------------
+summarize_taxonomy_representatives.pl 
+
+Written by Alejandro Schaffer.
+Code to record which taxonomy ancestor representatives are covered in a set of sequences. 
+A variant of check_taxonomy_representatives.pl that
+outputs a summary as a second output file.
+
+original source:
+/panfs/pan1/dnaorg/2018.01/18S/coverage_analysis/taxonomy_tree_wlevels.txt
+-rwxr-xr-x 1 schaffer oblast    14585 Feb 13 21:28 summarize_taxonomy_representatives.pl
+
+=========================================
 taxonomy-tree.20180123.txt
 
 cp /am/ftp-private/ncbitax/taxdump.tar.gz .
@@ -11,7 +50,7 @@ ls -ltr taxdump.tar
 -rw-r--r-- 1 nawrocke oblast 677386240 Jan 23 09:49 taxdump.tar
 tar xvf /am/ftp-private/ncbitax/taxdump.tar
 
-cut -f1,3,5 nodes.dmp > taxonomy_tree.20180123txt
+cut -f1,3,5 nodes.dmp > taxonomy_tree.20180123.txt
 
 original source:
 /panfs/pan1/infernal/notebook/18_0112_rrna_18S/tax-analyses/taxonomy_tree.txt
