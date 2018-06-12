@@ -1,15 +1,28 @@
 EPN, Fri Jan 26 09:05:44 2018
 EPN, Tue Jan 30 06:02:39 2018 [microsporidia added]
-EPN, Wed Feb 14 08:58:31 2018 [taxonomy
+EPN, Wed Feb 14 08:58:31 2018 [taxonomy]
 
 -----------------------------------
+taxonomy_tree_wlevels.cur.txt 
+- meant to be commonly updated
+
+cp /am/ftp-private/ncbitax/taxdump.tar.gz .
+gunzip taxdump.tar.gz
+tar xf taxdump.tar.gz
+cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
+~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
+mv taxonomy_tree_wlevels.txt taxonomy_tree_wlevels.cur.txt 
+ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
+
+Updated: EPN, Tue Jun 12 12:18:57 2018
+-----------------------------------------
 taxonomy_tree_wlevels.20180213.txt 
 
 cp /am/ftp-private/ncbitax/taxdump.tar.gz .
-gunzip /am/ftp-private/ncbitax/taxdump.tar.gz
+gunzip taxdump.tar.gz
+tar xf taxdump.tar.gz
 cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
-/panfs/pan1.be-md.ncbi.nlm.nih.gov/dnaorg/2015.09/vector_screening/repository3/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl
---input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
+~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
 mv taxonomy_tree_wlevels.txt taxonomy_tree_wlevels.20180213.txt 
 
 original source:
