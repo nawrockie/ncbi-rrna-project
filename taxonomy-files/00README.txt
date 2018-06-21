@@ -3,45 +3,26 @@ EPN, Tue Jan 30 06:02:39 2018 [microsporidia added]
 EPN, Wed Feb 14 08:58:31 2018 [taxonomy]
 
 -----------------------------------
+TO update 
 taxonomy_tree_ribodbcreate.cur.txt 
-- meant to be commonly updated
+and
+taxonomy_tree_wlevels.cur.txt 
+
+- these are meant to be commonly updated
 
 cp /am/ftp-private/ncbitax/taxdump_new.tar.gz .
 gunzip taxdump_new.tar.gz
 tar xf taxdump_new.tar
 cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
 cut -f31 nodes.dmp > specified_column.txt
-~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
-paste taxonomy_tree_wlevels.txt specified_column.txt > taxonomy_tree_ribodbcreate.cur.txt
+~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.cur.txt
+paste taxonomy_tree_wlevels.cur.txt specified_column.txt > taxonomy_tree_ribodbcreate.cur.txt
+rm taxonomy_tree_wlevels.txt
+rm taxonomy_tree_ribodbcreate.txt
+ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
 ln -s taxonomy_tree_ribodbcreate.cur.txt taxonomy_tree_ribodbcreate.txt
 
-Updated: EPN, Thu Jun 21 15:32:02 2018
------------------------------------------
-
-taxonomy_tree_wspecspecies.cur.txt 
-- meant to be commonly updated
-
-cp /am/ftp-private/ncbitax/taxdump_new.tar.gz .
-gunzip taxdump_new.tar.gz
-tar xf taxdump_new.tar
-cut -f1,3,5,31 nodes.dmp > taxonomy_tree_wspecspecies.cur.txt
-ln -s taxonomy_tree_wspecspecies.cur.txt taxonomy_tree_wspecspecies.txt
-
-EPN, Tue Jun 12 13:41:52 2018
------------------------------------------
-
-taxonomy_tree_wlevels.cur.txt 
-- meant to be commonly updated
-
-cp /am/ftp-private/ncbitax/taxdump.tar.gz .
-gunzip taxdump.tar.gz
-tar xf taxdump.tar
-cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
-~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
-mv taxonomy_tree_wlevels.txt taxonomy_tree_wlevels.cur.txt 
-ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
-
-Updated: EPN, Tue Jun 12 12:18:57 2018
+UPDATED: EPN, Thu Jun 21 15:58:55 2018
 -----------------------------------------
 taxonomy_tree_wlevels.20180213.txt 
 
