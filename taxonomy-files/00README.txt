@@ -22,7 +22,7 @@ rm taxonomy_tree_ribodbcreate.txt
 ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
 ln -s taxonomy_tree_ribodbcreate.cur.txt taxonomy_tree_ribodbcreate.txt
 
-UPDATED: EPN, Thu Jun 21 15:58:55 2018
+UPDATED: EPN, Fri Jun 29 15:54:38 2018
 -----------------------------------------
 taxonomy_tree_wlevels.20180213.txt 
 
@@ -106,3 +106,4 @@ original source:
 Renamed with date:
 > ls -ltr tax_info.micro.687.20180129.txt 
 -rw-r--r-- 1 nawrocke oblast 26351 Jan 30 05:52 tax_info.micro.687.20180129.txt
+
