@@ -22,7 +22,7 @@ rm taxonomy_tree_ribodbcreate.txt
 ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
 ln -s taxonomy_tree_ribodbcreate.cur.txt taxonomy_tree_ribodbcreate.txt
 
-UPDATED: EPN, Fri Jun 29 15:54:38 2018
+UPDATED: EPN, Wed Jul 11 15:14:35 2018
 -----------------------------------------
 taxonomy_tree_wlevels.20180213.txt 
 
