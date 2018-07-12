@@ -4,7 +4,7 @@ EPN, Wed Feb 14 08:58:31 2018 [taxonomy]
 
 -----------------------------------
 TO update 
-taxonomy_tree_ribodbcreate.cur.txt 
+taxonomy_tree_ribodbmaker.cur.txt 
 and
 taxonomy_tree_wlevels.cur.txt 
 
@@ -16,11 +16,11 @@ tar xf taxdump_new.tar
 cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
 cut -f31 nodes.dmp > specified_column.txt
 ~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.cur.txt
-paste taxonomy_tree_wlevels.cur.txt specified_column.txt > taxonomy_tree_ribodbcreate.cur.txt
+paste taxonomy_tree_wlevels.cur.txt specified_column.txt > taxonomy_tree_ribodbmaker.cur.txt
 rm taxonomy_tree_wlevels.txt
-rm taxonomy_tree_ribodbcreate.txt
+rm taxonomy_tree_ribodbmaker.txt
 ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
-ln -s taxonomy_tree_ribodbcreate.cur.txt taxonomy_tree_ribodbcreate.txt
+ln -s taxonomy_tree_ribodbmaker.cur.txt taxonomy_tree_ribodbmaker.txt
 
 UPDATED: EPN, Wed Jul 11 15:14:35 2018
 -----------------------------------------
