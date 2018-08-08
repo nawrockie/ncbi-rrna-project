@@ -4,38 +4,33 @@ EPN, Wed Feb 14 08:58:31 2018 [taxonomy]
 
 -----------------------------------
 TO update 
-taxonomy_tree_ribodbmaker.cur.txt 
+taxonomy_tree_ribodbmaker.txt 
 and
-taxonomy_tree_wlevels.cur.txt 
+taxonomy_tree_wlevels.txt 
 
-- these are meant to be commonly updated
+> sh update-for-ribodbmaker.sh
+
+> cat update-for-ribodbmaker.sh
+#!/bin/bash
+
+if [ ! "$BASH_VERSION" ] ; then
+    echo "Please do not use sh to run this script ($0), just execute it directly, e.g.\n'update-for-ribodbmaker.sh'" 1>&2
+    exit 1
+fi
+
+
+if [ ! "$VECPLUSDIR" ] ; then
+    echo "The VECPLUSDIR environment variable is not set. Please set it to the directory where vecscreen_plus_taxonomy is installed, e.g.:\n'export VECPLUSDIR=/PATH-TO-VECPLUSTAXONOMY/'" 1>&2
+    exit 1
+fi
 
 cp /am/ftp-private/ncbitax/taxdump_new.tar.gz .
-gunzip taxdump_new.tar.gz
+gunzip -f taxdump_new.tar.gz
 tar xf taxdump_new.tar
 cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
 cut -f31 nodes.dmp > specified_column.txt
-~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.cur.txt
-paste taxonomy_tree_wlevels.cur.txt specified_column.txt > taxonomy_tree_ribodbmaker.cur.txt
-rm taxonomy_tree_wlevels.txt
-rm taxonomy_tree_ribodbmaker.txt
-ln -s taxonomy_tree_wlevels.cur.txt taxonomy_tree_wlevels.txt
-ln -s taxonomy_tree_ribodbmaker.cur.txt taxonomy_tree_ribodbmaker.txt
-
-UPDATED: EPN, Wed Jul 11 15:14:35 2018
------------------------------------------
-taxonomy_tree_wlevels.20180213.txt 
-
-cp /am/ftp-private/ncbitax/taxdump.tar.gz .
-gunzip taxdump.tar.gz
-tar xf taxdump.tar
-cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
-~/src/vecscreen_plus_taxonomy/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
-mv taxonomy_tree_wlevels.txt taxonomy_tree_wlevels.20180213.txt 
-
-original source:
-/panfs/pan1/dnaorg/2018.01/18S/coverage_analysis/taxonomy_tree_wlevels.txt
--rw-r--r-- 1 schaffer oblast 48094695 Feb 13 13:16 taxonomy_tree_wlevels.txt
+$VECPLUSDIR/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
+paste taxonomy_tree_wlevels.txt specified_column.txt > taxonomy_tree_ribodbmaker.txt
 
 ----------------------------------
 taxa_to_cover_v1.txt
