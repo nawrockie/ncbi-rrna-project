@@ -17,4 +17,4 @@ tar xf taxdump_new.tar
 cut -f1,3,5 nodes.dmp > taxonomy_tree.txt
 cut -f31 nodes.dmp > specified_column.txt
 $VECPLUSDIR/scripts/assign_levels_to_taxonomy.pl --input_taxa taxonomy_tree.txt --outfile taxonomy_tree_wlevels.txt
-paste taxonomy_tree_wlevels.txt specified_column.txt > taxonomy_tree_ribodbmaker.txt
+paste taxonomy_tree_wlevels.txt specified_column.txt > ncbi_taxonomy_tree.ribodbmaker.txt
