@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -e 
+
 if [ ! "$BASH_VERSION" ] ; then
     echo "Please do not use sh to run this script ($0), just execute it directly, e.g.\n'update-for-ribodbmaker.sh'" 1>&2
     exit 1
